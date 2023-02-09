@@ -55,3 +55,18 @@
     position: absolute;
     transform: translate(-50%, -50%);
 }
+
+@media screen and (max-width: 420px) {
+    .offer{
+        flex-direction: column;
+    }
+    .box{
+        text-align: center;
+        padding: 30px 0px 30px 0px;
+    }
+
+    .number{
+        width: 100%;
+        margin-bottom: 20px;
+    }  
+}
